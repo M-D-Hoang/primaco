@@ -23,6 +23,10 @@ docker run --name mongodb -d -p 27017:27017 mongo
 Cd into /mongoSetup, run:
 
 ```
+npm i
+```
+
+```
 node setup_mongo.js
 ```
 
@@ -31,12 +35,20 @@ node setup_mongo.js
 Cd into /backend, run:
 
 ```
+npm i
+```
+
+```
 node server.js
 ```
 
 **Run Client:**
 
 Cd into /frontend, run:
+
+```
+npm i
+```
 
 ```
 npm start
